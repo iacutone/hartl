@@ -16,6 +16,7 @@ group :test do
 	gem 'guard-rspec'
 	# gem "spork-rails"
 	gem 'factory_girl_rails'
+	gem 'sqlite3'
 end
 
 group :development do

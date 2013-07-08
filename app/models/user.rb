@@ -8,10 +8,11 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  password_digest :string(255)
+#  semester        :string(255)
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessible :name, :email, :password, :password_confirmation, :semester
   has_secure_password
 
   before_save { |user| user.email = email.downcase }

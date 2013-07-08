@@ -6,8 +6,8 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'haml'
-# gem 'sass-rails', '~> 3.2'
+gem "haml-rails"
+gem 'sass-rails', '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.3.2.0'
 
 group :test do

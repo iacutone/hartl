@@ -1,1 +1,1 @@
-Using to Michael Hartl tutorial in order to learn more about testing and HAML.
+Using the Michael Hartl tutorial in order to learn more about testing and HAML.

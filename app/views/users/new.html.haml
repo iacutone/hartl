@@ -1,0 +1,21 @@
+.row-fluid
+  .span12
+    %h2 Welcome
+    = form_for @user do |f|
+      .span8
+        .field
+          = f.label :name
+          = f.text_field :name
+        .field
+          = f.label :email
+          = f.text_field :email, :placeholder => "example@example.com"
+        .field
+          = f.label :password
+          = f.password_field :password
+        .field
+          = f.label :password_confirmation
+          = f.password_field :password_confirmation
+        .field
+          = f.label :semester
+          = f.select :semester, %w{ 000 001 002 }
+        %button.actions{:type => "submit"} Sign Up
